@@ -821,7 +821,7 @@ const portfolioItems = [
                 </div>
                 <div className="flex items-center space-x-4">
                   <Phone className="w-6 h-6 text-purple-500" />
-                  <span>(888) 4000-2234</span>
+                  <span>(0800) 4000-223</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="w-6 h-6 text-purple-500" />
