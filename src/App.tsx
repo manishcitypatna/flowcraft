@@ -674,7 +674,7 @@ const portfolioItems = [
               ))}
             </div>
             <p className="text-gray-300 max-w-md mx-auto">
-              Duis autem vel eum iriure dolor in hendrerit vulputate velit esse molestie consequat.
+              We take pride in consistently earning outstanding feedback from our clients. With an average rating of 4.7+, our commitment to quality, transparency, and innovation ensures every project exceeds expectations.
             </p>
           </div>
         </div>
