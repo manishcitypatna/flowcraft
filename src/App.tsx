@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import React, { useState, useEffect } from 'react';
+
 import { 
   BarChart3, 
   Menu, 
@@ -281,7 +283,7 @@ const portfolioItems = [
               <button onClick={() => scrollToSection('services')} className="hover:text-pink-400 transition-colors">Services</button>
               <button onClick={() => scrollToSection('portfolio')} className="hover:text-pink-400 transition-colors">Portfolio</button>
               <button onClick={() => scrollToSection('contact')} className="hover:text-pink-400 transition-colors">Contact us</button>
-              <button onClick={() => scrollToSection('services')} className="hover:text-pink-400 transition-colors">Pages</button>
+            {/*  <button onClick={() => scrollToSection('services')} className="hover:text-pink-400 transition-colors">Pages</button> */}
             </nav>
 
             {/* CTA Button */}
@@ -829,7 +831,6 @@ const portfolioItems = [
                 </div>
               </div>
               
-              
             </div>
             
             <div className="bg-gray-800 p-8 rounded-2xl border border-gray-700">
@@ -884,84 +885,31 @@ const portfolioItems = [
       </section>
 
       {/* Footer */}
-   {/*    <footer className="bg-gray-900 border-t border-gray-800 py-16 px-6">
-        <div className="container mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
-            <div>
-              <div className="flex items-center space-x-2 mb-6">
-                <BarChart3 className="w-8 h-8 text-pink-500" />
-                <span className="text-xl font-bold">SMART FLOW CRAFT</span>
-              </div>
-              <p className="text-gray-400 mb-6 leading-relaxed">
-                Transforming Ideas into Digital Excellence. Elevate your online presence 
-                with innovative solutions and strategic digital services.
-              </p>
-              <div className="flex space-x-4">
-                <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-purple-600 transition-colors">
-                  <Facebook className="w-5 h-5" />
-                </a>
-                <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-purple-600 transition-colors">
-                  <Twitter className="w-5 h-5" />
-                </a>
-                <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-purple-600 transition-colors">
-                  <Instagram className="w-5 h-5" />
-                </a>
-                <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-purple-600 transition-colors">
-                  <Linkedin className="w-5 h-5" />
-                </a>
-              </div>
-            </div>
-            
-            <div>
-              <h3 className="text-lg font-bold mb-6">Services</h3>
-              <ul className="space-y-3 text-gray-400">
-                <li><a href="#" className="hover:text-purple-400 transition-colors">Website Development</a></li>
-                <li><a href="#" className="hover:text-purple-400 transition-colors">App Development</a></li>
-                <li><a href="#" className="hover:text-purple-400 transition-colors">Digital Marketing</a></li>
-                <li><a href="#" className="hover:text-purple-400 transition-colors">Graphic Design</a></li>
-                <li><a href="#" className="hover:text-purple-400 transition-colors">Brand Identity</a></li>
-                <li><a href="#" className="hover:text-purple-400 transition-colors">Search Engine Optimization</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="text-lg font-bold mb-6">Support</h3>
-              <ul className="space-y-3 text-gray-400">
-                <li><a href="#" className="hover:text-purple-400 transition-colors">Help Center</a></li>
-                <li><a href="#" className="hover:text-purple-400 transition-colors">FAQ</a></li>
-                <li><a href="#" className="hover:text-purple-400 transition-colors">Live Support</a></li>
-                <li><a href="#" className="hover:text-purple-400 transition-colors">Email Support</a></li>
-                <li><a href="#" className="hover:text-purple-400 transition-colors">Contact us</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="text-lg font-bold mb-6">Company</h3>
-              <ul className="space-y-3 text-gray-400">
-                <li><a href="#" className="hover:text-purple-400 transition-colors">About us</a></li>
-                <li><a href="#" className="hover:text-purple-400 transition-colors">Our Team</a></li>
-                <li><a href="#" className="hover:text-purple-400 transition-colors">Careers</a></li>
-                <li><a href="#" className="hover:text-purple-400 transition-colors">Article & News</a></li>
-                <li><a href="#" className="hover:text-purple-400 transition-colors">Legal Notices</a></li>
-              </ul>
-            </div>
+      <footer className="bg-gray-900 border-t border-gray-800 py-12 px-6 relative z-10">
+        <div className="container mx-auto text-center">
+          <div className="flex justify-center items-center space-x-2 mb-4">
+            <BarChart3 className="w-6 h-6 text-pink-500" />
+            <span className="font-bold text-lg">SMART FLOW CRAFT</span>
           </div>
-          
-          <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">
-              Copyright 2025 SMART FLOW CRAFT All rights reserved. Powered by MintCreative.
-            </p>
-            <div className="flex space-x-6 text-sm text-gray-400 mt-4 md:mt-0">
-              <a href="#" className="hover:text-purple-400 transition-colors">Terms of use</a>
-              <a href="#" className="hover:text-purple-400 transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-purple-400 transition-colors">Cookie Policy</a>
-            </div>
+
+          <p className="text-gray-400 mb-4">
+            © 2025 SMART FLOW CRAFT. All Rights Reserved. Designed with passion in Germany.
+          </p>
+
+          <div className="flex justify-center space-x-6 text-sm text-gray-400">
+            <Link to="/policies#terms-of-use" className="hover:text-purple-400">
+              Terms of Use
+            </Link>
+            <Link to="/policies#privacy-policy" className="hover:text-purple-400">
+              Privacy Policy
+            </Link>
+            <Link to="/policies#cookie-policy" className="hover:text-purple-400">
+              Cookie Policy
+            </Link>
           </div>
         </div>
-      </footer>*/}
-      <p className="text-gray-400 text-sm">
-              Copyright 2025 SMART FLOW CRAFT All rights reserved. Powered by MintCreative.
-            </p>
+      </footer>
+      
     </div>
   );
 }
