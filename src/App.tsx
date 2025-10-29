@@ -187,21 +187,21 @@ const portfolioItems = [
       role: "CEO",
       company: "BRIGHT ELECTRONICS",
       image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      content: "Choosing SMART FLOW CRAFT for digital marketing was a game-changer. Our SEO ranking skyrocketed, leading to increased visibility and a significant boost in sales."
+      content: "Choosing SMARTFLOWCRAFT for digital marketing was a game-changer. Our SEO ranking skyrocketed, leading to increased visibility and a significant boost in sales."
     },
     {
       name: "Anna Miller", 
       role: "Marketing Director",
       company: "FRESH BITES CATERING",
       image: "https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      content: "Data analytics by SMART FLOW CRAFT provided invaluable insights. Their expertise helped us make informed decisions, leading to remarkable business growth."
+      content: "Data analytics by SMARTFLOWCRAFT provided invaluable insights. Their expertise helped us make informed decisions, leading to remarkable business growth."
     },
     {
       name: "Sarah Thompson",
       role: "Founder", 
       company: "THOMPSON & CO.",
       image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      content: "SMART FLOW CRAFT transformed our online presence! Their web development expertise and creative design elevated our brand, attracting more customers than ever before."
+      content: "SMARTFLOWCRAFT transformed our online presence! Their web development expertise and creative design elevated our brand, attracting more customers than ever before."
     }
   ];
 
@@ -273,7 +273,7 @@ const portfolioItems = [
             {/* Logo */}
             <div className="flex items-center space-x-2">
               <BarChart3 className="w-8 h-8 text-pink-500" />
-              <span className="text-xl font-bold">SMART FLOW CRAFT</span>
+              <span className="text-xl font-bold">SMARTFLOWCRAFT</span>
             </div>
 
             {/* Desktop Navigation */}
@@ -331,7 +331,7 @@ const portfolioItems = [
         <div className="container mx-auto text-center relative z-10">
           <div className="mb-8">
             <span className="inline-block bg-gray-800 px-4 py-2 rounded-full text-sm font-medium mb-6 border border-gray-700">
-              WELCOME TO SMART FLOW CRAFT
+              WELCOME TO SMARTFLOWCRAFT
             </span>
           </div>
           
@@ -344,7 +344,7 @@ const portfolioItems = [
           </h1>
           
           <p className="text-gray-300 text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed">
-            At SMART FLOW CRAFT, we help businesses transform ideas into powerful digital solutions. From strategy and design to execution and growth, we provide end-to-end services that ensure your brand stays ahead in today’s competitive landscape. Our focus is on innovation, performance, and long-term success.
+            At SMARTFLOWCRAFT, we help businesses transform ideas into powerful digital solutions. From strategy and design to execution and growth, we provide end-to-end services that ensure your brand stays ahead in today’s competitive landscape. Our focus is on innovation, performance, and long-term success.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -442,10 +442,10 @@ const portfolioItems = [
             <div>
               <span className="text-pink-500 font-medium mb-4 block">WHO WE ARE</span>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
-               Your Digital Future, Our Expertise: SMART FLOW CRAFT Delivers Excellence.
+               Your Digital Future, Our Expertise: SMARTFLOWCRAFT Delivers Excellence.
               </h2>
               <p className="text-gray-300 mb-8 leading-relaxed">
-                At SMART FLOW CRAFT, we specialize in building digital solutions that empower businesses to grow and innovate. With a team of creative designers, skilled developers, and strategic marketers, we deliver high-quality services tailored to your unique goals. Our mission is to blend technology with creativity, ensuring long-term success for every client we partner with.
+                At SMARTFLOWCRAFT, we specialize in building digital solutions that empower businesses to grow and innovate. With a team of creative designers, skilled developers, and strategic marketers, we deliver high-quality services tailored to your unique goals. Our mission is to blend technology with creativity, ensuring long-term success for every client we partner with.
               </p>
               <button 
                 onClick={() => scrollToSection('about')}
@@ -465,7 +465,7 @@ const portfolioItems = [
               <div className="pt-4">
                 <span className="text-purple-400 font-medium text-sm block mb-2">OUR VISION</span>
                 <h3 className="text-2xl font-bold mb-4">
-                  Elevate Your Digital Presence with SMART FLOW CRAFT Expertise</h3>
+                  Elevate Your Digital Presence with SMARTFLOWCRAFT Expertise</h3>
                 <p className="text-gray-300 leading-relaxed">
                   Our vision is to empower businesses by creating impactful digital experiences that inspire growth, innovation, and long-lasting connections. We aim to be a trusted partner for brands striving to achieve excellence in the digital landscape.
                 </p>
@@ -479,7 +479,7 @@ const portfolioItems = [
               <div className="pt-4">
                 <span className="text-pink-400 font-medium text-sm block mb-2">OUR MISSION</span>
                 <h3 className="text-2xl font-bold mb-4">
-                  Unleash Your Potential in the Digital Realm with SMART FLOW CRAFT</h3>
+                  Unleash Your Potential in the Digital Realm with SMARTFLOWCRAFT</h3>
                 <p className="text-gray-300 leading-relaxed">
                   Our mission is to deliver tailored digital solutions through creativity, technology, and strategy. We focus on helping businesses harness their true potential, ensuring measurable results and sustainable success in an ever-evolving digital world.
                 </p>
@@ -495,7 +495,7 @@ const portfolioItems = [
           <div className="text-center mb-16">
             <span className="text-pink-500 font-medium mb-4 block">WHAT WE OFFER</span>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Where Strategy Meets Digital. Your Success Story Begins with SMART FLOW CRAFT.
+              Where Strategy Meets Digital. Your Success Story Begins with SMARTFLOWCRAFT.
             </h2>
           </div>
           
@@ -572,12 +572,12 @@ const portfolioItems = [
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <span className="text-pink-500 font-medium mb-4 block">NAVIGATING DIGITAL HORIZONS WITH SMART FLOW CRAFT: YOUR TRUSTED PARTNER</span>
+              <span className="text-pink-500 font-medium mb-4 block">NAVIGATING DIGITAL HORIZONS WITH SMARTFLOWCRAFT: YOUR TRUSTED PARTNER</span>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
-               Experience the innovation of SMART FLOW CRAFT. Let’s discuss your project and bring your vision to life.
+               Experience the innovation of SMARTFLOWCRAFT. Let’s discuss your project and bring your vision to life.
               </h2>
               <p className="text-gray-300 mb-8 leading-relaxed">
-               At SMART FLOW CRAFT, we combine creativity and technology to deliver impactful digital solutions. Our team focuses on understanding your goals, building tailored strategies, and executing with precision to help your business thrive in the digital era.
+               At SMARTFLOWCRAFT, we combine creativity and technology to deliver impactful digital solutions. Our team focuses on understanding your goals, building tailored strategies, and executing with precision to help your business thrive in the digital era.
               </p>
               
               {/* Skills Progress Bars */}
@@ -733,10 +733,10 @@ const portfolioItems = [
           {/* Portfolio CTA */}
           <div className="bg-gradient-to-r from-purple-900/50 to-pink-900/50 p-8 rounded-2xl border border-purple-500/20 text-center">
             <h3 className="text-2xl font-bold mb-4">
-              Pioneering Digital Excellence: Discover the SMART FLOW CRAFT Advantage.
+              Pioneering Digital Excellence: Discover the SMARTFLOWCRAFT Advantage.
             </h3>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              At SMART FLOW CRAFT, we combine creativity, technology, and strategy to deliver solutions that drive real impact. From innovative design to powerful development and marketing, we help businesses thrive in the ever-changing digital world.
+              At SMARTFLOWCRAFT, we combine creativity, technology, and strategy to deliver solutions that drive real impact. From innovative design to powerful development and marketing, we help businesses thrive in the ever-changing digital world.
             </p>
             <button className="bg-gradient-to-r from-pink-500 to-purple-600 px-8 py-3 rounded-full hover:from-pink-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 font-medium">
               DISCOVER MORE
@@ -889,11 +889,11 @@ const portfolioItems = [
         <div className="container mx-auto text-center">
           <div className="flex justify-center items-center space-x-2 mb-4">
             <BarChart3 className="w-6 h-6 text-pink-500" />
-            <span className="font-bold text-lg">SMART FLOW CRAFT</span>
+            <span className="font-bold text-lg">SMARTFLOWCRAFT</span>
           </div>
 
           <p className="text-gray-400 mb-4">
-            © 2025 SMART FLOW CRAFT. All Rights Reserved. Designed with passion in Germany.
+            © 2025 SMARTFLOWCRAFT. All Rights Reserved. Designed with passion in Germany.
           </p>
 
           <div className="flex justify-center space-x-6 text-sm text-gray-400">
